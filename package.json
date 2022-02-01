@@ -1,0 +1,37 @@
+{
+  "name": "camp-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "homepage": "https://dank-dev.github.io/Camp-App",
+  "scripts": {
+    "start": "nodemon app.js",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Deepak Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.11.0",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.25.1",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^8.5.1",
+    "ejs": "^3.1.6",
+    "ejs-mate": "^3.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "joi": "^17.4.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.12.7",
+    "multer": "^1.4.2",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
+    "path": "^0.12.7",
+    "react-scripts": "^5.0.0"
+  }
+}
